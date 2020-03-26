@@ -1,4 +1,4 @@
-module.zexports = {
+module.exports = {
   title: 'SAP Cloud SDK',
   tagline: 'A one stop shop for developing and extending SAP application in a Cloud.',
   url: 'https://your-docusaurus-test-site.com',
