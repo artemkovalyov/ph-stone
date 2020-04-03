@@ -1,3 +1,4 @@
+
 module.exports = {
   title: 'SAP Cloud SDK',
   tagline: 'A one stop shop for developing and extending SAP application in a Cloud.',
@@ -15,7 +16,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/introduction',
           label: 'Docs',
           position: 'left',
         },
@@ -38,25 +39,29 @@ module.exports = {
     },
     footer: {
       style: 'dark',
+      logo: {
+        alt: 'SAP Cloud SDK',
+        src: 'img/sap.svg',
+      },
       links: [
         {
           title: 'Docs',
           items: [
             {
               label: 'SAP Cloud SDK overview',
-              to: 'docs/doc1',
+              to: 'docs/introduction',
             },
             {
               label: 'Clod SDK for Java',
-              to: 'docs/doc2',
+              to: 'docs/intro-java-sdk',
             },
             {
               label: 'Clod SDK for JS',
-              to: 'docs/doc2',
+              to: 'docs/intro-javascript-sdk',
             },
             {
               label: 'Clod SDK for CI/CD',
-              to: 'docs/doc2',
+              href: 'https://sap.github.io/jenkins-library/',
             },
             {
               label: 'Cloud SDK Tutorials',
@@ -129,4 +134,10 @@ module.exports = {
       },
     ],
   ],
+  customFields: {
+      corpLogo: {
+	alt: 'SAP Developers',
+	src: 'img/sap.svg'
+      },
+  },
 };

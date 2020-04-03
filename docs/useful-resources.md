@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: useful-resources
 title: Style Guide
 sidebar_label: Style Guide
 ---
